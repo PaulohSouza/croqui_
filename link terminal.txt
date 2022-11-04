@@ -1,0 +1,18 @@
+Rscript.exe -e "shiny::runApp('L:/Paulo Souza - Data Science/Versao 2.0/croqui2', launch.browser = TRUE)
+
+create table REGISTROS(
+	ID varchar(20) NOT NULL,
+	DATA_OCORRENCIA Date  NOT NULL,
+	USUARIO varchar(50) NOT NULL,
+	DEPARTAMENTO_INFORMANTE varchar(50),
+	DEPARTAMENTO_OCORRENCIA varchar(50),
+	TIPO_CAUSA varchar(50) NOT NULL,
+	PROBLEMA_REGISTRADO varchar(300) NOT NULL,
+	CAUSA_PROBLEMA varchar(300) NOT NULL,
+	ENVOLVIDOS varchar(50),
+	LOCAL_OCORRENCIA varchar(50),
+	SOLUCAO varchar(300)
+);
+
+ ALTER USER postgres WITH PASSWORD '04041193'".
+ ALTER USER postgres WITH PASSWORD '04041193';
